@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Centro.css'; // Assicurati di creare un file CSS per lo stile
+import './Centro.css'; 
 import { Link } from 'react-router-dom';
 
 const API_KEY = "30aaeaea0d6c2d20535f003c28d480f3";
