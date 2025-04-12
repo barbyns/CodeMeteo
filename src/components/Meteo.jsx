@@ -14,7 +14,7 @@ const Meteo = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
-  // useLocation hook per ottenere il percorso corrente
+  
   const location = useLocation();
 
   const handleSearch = async () => {
