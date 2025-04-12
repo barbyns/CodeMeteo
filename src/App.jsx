@@ -6,6 +6,7 @@ import Centro from './components/Centro';
 import MyFooter from './components/MyFooter';
 import MyNav from './components/MyNav';
 import Nord from './components/Nord';
+import Sud from './components/Sud'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Route path="/Previsioni/OggiDomani" element={<PrevisioniItalia />} />
             <Route path="/Regioni/Nord" element={<Nord />} />
             <Route path="/Regioni/Centro" element={<Centro />} />
-            <Route path="/Regioni/Sud" element={<PrevisioniItalia />} />
+            <Route path="/Regioni/Sud" element={<Sud />} />
           </Routes>
         </main>
 
