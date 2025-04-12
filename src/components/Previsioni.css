@@ -1,0 +1,33 @@
+.previsioni-italia-container {
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .city-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .city-info-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .city-info-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+  

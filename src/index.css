@@ -1,0 +1,13 @@
+/* Sfondo scuro globale */
+body {
+  background-color: #141414; 
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+

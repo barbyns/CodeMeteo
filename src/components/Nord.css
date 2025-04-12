@@ -1,0 +1,86 @@
+/* Stili principali per il contenitore */
+.nord-container {
+    padding: 20px;
+    background-color: #121212; /* Sfondo scuro per la modalità scura */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Testo bianco */
+  }
+  
+  /* Stile per il titolo */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenitore per le carte delle città */
+  .city-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Stile per ogni card della città */
+  .city-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Trasparente per l'effetto scuro */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effetto al passaggio del mouse sulle carte */
+  .city-card:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambio di colore sul hover */
+  }
+  
+  /* Stile per il titolo della città */
+  .city-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  /* Icona del meteo */
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragrafi nelle card */
+  .city-card p {
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  /* Stile per il link del bottone "Torna alla Home" */
+  .back-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #198754; /* Verde per il bottone */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover sul bottone */
+  .back-btn:hover {
+    background-color: #157347; /* Verde più scuro */
+  }
+  
+  /* Responsività per dispositivi più piccoli */
+  @media (max-width: 768px) {
+    .city-cards {
+      grid-template-columns: 1fr; /* Una colonna sui dispositivi piccoli */
+    }
+  }
+  
